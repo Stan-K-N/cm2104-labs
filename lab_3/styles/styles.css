@@ -13,3 +13,8 @@ footer, div {
 } 
 
 .BlogPost {background-color: lightblue;}
+
+#PageContent {
+    border-style: dashed;
+    border-color: red;
+}
