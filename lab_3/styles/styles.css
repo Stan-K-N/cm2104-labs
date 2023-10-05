@@ -18,3 +18,8 @@ footer, div {
     border-style: dashed;
     border-color: red;
 }
+
+#SiteLogo {
+    position: relative;
+    
+}
