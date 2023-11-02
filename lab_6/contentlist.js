@@ -9,7 +9,10 @@ function addContent () {
 		item = items[i];
 		items_html += "<li>" + item + "</li>";
 	};
-	items_html += "</ul>";
+	var items_html += "</ul>";
+
+	var outputDiv = document.getElementById("content");
+	outputDiv.innerHTML = items_html
 	
 	// using javascript
 	// 1. find the content div
